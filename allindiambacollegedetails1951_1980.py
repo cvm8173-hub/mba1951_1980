@@ -8469,7 +8469,7 @@ def parse_faculty_full_html(driver,URLS):
     try:
         section = wait.until(
             EC.presence_of_element_located(
-                (By.ID, "ReviewSummarisationReviewSummary")
+                (By.CSS_SELECTOR,"div.wikkiContents.faqAccordian")
             )
         )
     except:
