@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ritee-business-school-ribs-chhattisgarh-raipur-30854",
-  "https://www.shiksha.com/college/sai-institute-of-management-barwani-210181",
-  "https://www.shiksha.com/college/sirajul-huda-institute-of-management-studies-kerala-other-210251",
-  "https://www.shiksha.com/college/indian-institute-of-tourism-and-travel-management-goa-panaji-228847",
-  "https://www.shiksha.com/college/dpg-center-for-occupational-and-industry-linked-learning-gurgaon-238784",
-  "https://www.shiksha.com/college/dayanand-dinanath-group-of-institutions-kanpur-27707",
-  "https://www.shiksha.com/college/jk-institute-of-management-and-technology-jkimt-karnal-37606",
-  "https://www.shiksha.com/college/institute-of-engineering-and-rural-technology-allahabad-57861",
-  "https://www.shiksha.com/college/gyan-sagar-college-of-engineering-61221",
-  "https://www.shiksha.com/college/cms-academy-of-management-and-technology-coimbatore-68641",
-  "https://www.shiksha.com/college/mba-esg-ahmedabad-146041",
-  "https://www.shiksha.com/college/panache-academy-goa-panjim-182163",
-  "https://www.shiksha.com/college/kewalshree-institute-of-management-indore-210173",
-  "https://www.shiksha.com/college/ambedkar-institute-of-higher-education-patna-231338",
-  "https://www.shiksha.com/college/scient-institute-of-technology-sit-ibrahimpatnam-21114",
-  "https://www.shiksha.com/college/swarnandhra-college-of-engineering-and-technology-west-godavari-21352",
-  "https://www.shiksha.com/college/mahavir-institute-of-engineering-and-technology-bhubaneswar-23494",
-  "https://www.shiksha.com/college/icofp-mumbai-international-college-of-financial-planning-malad-west-28222",
-  "https://www.shiksha.com/college/deen-dayal-upadhyaya-institute-of-management-and-higher-studies-kanpur-30495",
-  "https://www.shiksha.com/college/mahadevi-institute-of-technology-dehradun-30546",
+  "https://www.shiksha.com/college/ganadipathy-tulsi-s-jain-engineering-college-vellore-61681",
+  "https://www.shiksha.com/college/pydah-college-pg-courses-visakhapatnam-62435",
+  "https://www.shiksha.com/college/rayalaseema-institute-of-information-and-management-sciences-tirupati-62545",
+  "https://www.shiksha.com/college/institute-of-management-and-science-bhusawal-jalgaon-72567",
+  "https://www.shiksha.com/college/palanisamy-college-of-arts-erode-74311",
+  "https://www.shiksha.com/college/tirupur-kumaran-college-for-women-77449",
+  "https://www.shiksha.com/college/laqshya-group-of-colleges-khammam-52770",
+  "https://www.shiksha.com/college/shri-vithal-education-and-research-institute-s-college-of-engineering-maharashtra-other-59435",
+  "https://www.shiksha.com/college/vkr-vnb-and-agk-college-of-engineering-gudivada-60893",
+  "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-sciences-tenali-60909",
+  "https://www.shiksha.com/college/vishwa-bharathi-college-of-technology-and-management-guntur-62389",
+  "https://www.shiksha.com/college/decent-international-institute-of-hotel-management-salt-lake-city-kolkata-63045",
+  "https://www.shiksha.com/university/bhagwant-global-university-uttarakhand-other-65589",
+  "https://www.shiksha.com/college/s-n-g-institute-of-management-and-research-maharashtra-other-69041",
+  "https://www.shiksha.com/college/sai-rajeswari-institute-of-technology-kadapa-70899",
+  "https://www.shiksha.com/college/central-india-college-of-business-management-and-studies-nagpur-71141",
+  "https://www.shiksha.com/college/global-institute-of-management-and-technology-markarpur-krishna-71731",
+  "https://www.shiksha.com/college/swaraj-institute-of-management-satara-77173",
+  "https://www.shiksha.com/college/horticulture-vocational-education-institute-jawaharlal-nehru-krishi-vishwavidyalaya-sagar-106261",
+  "https://www.shiksha.com/college/xavier-institute-of-management-jabalpur-205207",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1931
+    c_count =2211
 
     try:
         for base_url in BASE_URL:
