@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ganadipathy-tulsi-s-jain-engineering-college-vellore-61681",
-  "https://www.shiksha.com/college/pydah-college-pg-courses-visakhapatnam-62435",
-  "https://www.shiksha.com/college/rayalaseema-institute-of-information-and-management-sciences-tirupati-62545",
-  "https://www.shiksha.com/college/institute-of-management-and-science-bhusawal-jalgaon-72567",
-  "https://www.shiksha.com/college/palanisamy-college-of-arts-erode-74311",
-  "https://www.shiksha.com/college/tirupur-kumaran-college-for-women-77449",
-  "https://www.shiksha.com/college/laqshya-group-of-colleges-khammam-52770",
-  "https://www.shiksha.com/college/shri-vithal-education-and-research-institute-s-college-of-engineering-maharashtra-other-59435",
-  "https://www.shiksha.com/college/vkr-vnb-and-agk-college-of-engineering-gudivada-60893",
-  "https://www.shiksha.com/college/priyadarshini-institute-of-technology-and-sciences-tenali-60909",
-  "https://www.shiksha.com/college/vishwa-bharathi-college-of-technology-and-management-guntur-62389",
-  "https://www.shiksha.com/college/decent-international-institute-of-hotel-management-salt-lake-city-kolkata-63045",
-  "https://www.shiksha.com/university/bhagwant-global-university-uttarakhand-other-65589",
-  "https://www.shiksha.com/college/s-n-g-institute-of-management-and-research-maharashtra-other-69041",
-  "https://www.shiksha.com/college/sai-rajeswari-institute-of-technology-kadapa-70899",
-  "https://www.shiksha.com/college/central-india-college-of-business-management-and-studies-nagpur-71141",
-  "https://www.shiksha.com/college/global-institute-of-management-and-technology-markarpur-krishna-71731",
-  "https://www.shiksha.com/college/swaraj-institute-of-management-satara-77173",
-  "https://www.shiksha.com/college/horticulture-vocational-education-institute-jawaharlal-nehru-krishi-vishwavidyalaya-sagar-106261",
-  "https://www.shiksha.com/college/xavier-institute-of-management-jabalpur-205207",
+  "https://www.shiksha.com/college/raja-rajesheshwari-college-of-engineering-mysore-road-bangalore-69479",
+  "https://www.shiksha.com/college/csird-institute-of-management-anantapur-71323",
+  "https://www.shiksha.com/college/high-rank-business-school-noida-72169",
+  "https://www.shiksha.com/college/ojaswani-institute-of-management-and-technology-damoh-74179",
+  "https://www.shiksha.com/college/sai-krishna-post-graduate-college-telangana-other-75389",
+  "https://www.shiksha.com/college/shree-markandeshwar-institute-of-management-kurukshetra-146681",
+  "https://www.shiksha.com/college/college-of-management-studies-kanpur-2421",
+  "https://www.shiksha.com/university/jain-vishva-bharati-institute-rajasthan-other-4330",
+  "https://www.shiksha.com/college/om-group-of-institutions-hisar-29712",
+  "https://www.shiksha.com/college/shri-vidhya-college-of-distance-education-hi-tech-city-hyderabad-39391",
+  "https://www.shiksha.com/college/wlci-college-chennai-anna-salai-45697",
+  "https://www.shiksha.com/college/samalkha-group-of-institutions-admission-office-shalimar-bagh-delhi-47414",
+  "https://www.shiksha.com/college/sistec-school-of-management-studies-bhopal-49302",
+  "https://www.shiksha.com/college/kc-group-of-institutions-una-52060",
+  "https://www.shiksha.com/college/panache-academy-vadodara-55445",
+  "https://www.shiksha.com/university/mahatma-gandhi-university-meghalaya-meghalaya-other-57679",
+  "https://www.shiksha.com/college/aihm-institute-of-tourism-and-hotel-management-greater-noida-58119",
+  "https://www.shiksha.com/college/gogate-jogalekar-college-ratnagiri-58935",
+  "https://www.shiksha.com/college/nri-institute-of-technology-agiripalli-krishna-60861",
+  "https://www.shiksha.com/college/sai-tirumala-n-v-r-engineering-college-narasaraopet-60947",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2211
+    c_count =2571
 
     try:
         for base_url in BASE_URL:
